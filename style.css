@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 header{
     width: 100%;
     float: left;
     background-color: black;
+    border-bottom: 1px solid rgb(102, 102, 102);
 }
 
 header img {
@@ -61,9 +62,43 @@ header nav section div{
     font-size: 1.2vw;
 }
 
+/* Main */
 
-main{
-    clear: both;
+main .DescripcionGeneral{
     width: 100%;
-    height: auto;
+    height: 1400px;
+    background-color: black;
+    padding-bottom: 1%;
 }
+
+main img{
+    margin-top: 8%;
+    float: left;
+}
+
+main .DescripcionGeneral div{
+    width: 85%;
+    margin-left: 5%;
+    margin-top: 20%;
+    background-color: black;
+} 
+
+main .DescripcionGeneral div h1{
+    color: white;
+    font-size: 7vw; 
+    margin-left: 35%;
+} 
+
+main .DescripcionGeneral div p{
+    color: white;
+    margin-left: 35%;
+    font-size: 1vw;
+}
+
+main .DescripcionGeneral div .Descripcion{
+
+} 
+
+main .DescripcionGeneral div .Subtitulo{
+    margin-bottom: 1%;
+} 
