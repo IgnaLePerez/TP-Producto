@@ -77,16 +77,18 @@ header nav section {
 
 /* ############## Main ############## */
 
-main img{
+.guitarraPrincipal{
     margin-top: 8%;
     float: left;
+    width: 35%;
+
 }
 
 /* -- descripcion general -- */
 
 .DescripcionGeneral{
     width: 100%;
-    height: 711px;
+    height: 100vh;
     background-color: black;
     padding-bottom: 1%;
 }
@@ -120,7 +122,32 @@ main img{
 
 .PunteoRapido{
     width: 100%;
-    height: 711px;
-    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    background-color: rgb(244 238 213);
     padding-bottom: 1%;
+}
+
+.PunteoRapido div{
+    border-color: crimson;
+    border-width: 2px;
+    border-style: solid;
+    float: left;
+    width: 17.3%;
+    margin-top: 14%;
+    padding: 2%;
+    height: 36%;
+}
+
+.imagenPunteoRapido{
+    width: 45%;
+    float: left;
+    margin-left: 26%;
+    aspect-ratio: 9 / 9;
+    border-radius: 50%;
+    margin-bottom: 16%;
+}
+
+.PunteoRapido div p{
+    clear: both;
+    font-size: 1vw;
 }
