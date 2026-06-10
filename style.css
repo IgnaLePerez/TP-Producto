@@ -56,22 +56,25 @@ header nav section {
     font-size: 1.2vw;
 }
 
-.iniciar-sesion p {
+.iniciar-sesion{
     color: rgb(0, 0, 0);
-    font-size: 1.2vw;
-    border-radius: 3px;
-    padding: 7%;
+    font-size: 1.1vw;
+    border-radius: 9px;
     background-color: rgb(255, 255, 255);
+    float: right;
+    width: 53%;
+    height: 5vh;
+}
+
+.iniciar-sesion:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
 }
 
 .registrarse{
     float: left;
     margin-top: 3%;
-}
-
-.iniciar-sesion {
-    float: right;
-    width: 53%;
 }
 
 /* ############## Main ############## */
@@ -137,6 +140,11 @@ header nav section {
     margin-right: 0.3%;
 }
 
+.PunteoRapido div iframe{
+    width: 100%;
+    
+}
+
 .imagenPunteoRapido{
     width: 45%;
     float: left;
@@ -160,7 +168,7 @@ header nav section {
 }
 
 .PunteoRapido div .miniSubtitulo{
-    margin-top: 52%;
+    margin-top: -1%;
     text-align: center;
     margin-bottom: 14%;
 }
@@ -173,7 +181,7 @@ header nav section {
 }
 
 .guitarraSecundaria{
-    width: 600px;
+    width: 100%;
 }
 
 .ComprarYa p{
@@ -198,14 +206,24 @@ header nav section {
     margin-top: 3%;
     background-color: white;
     padding: 3%;
+    border-radius: 12px;
 }
 
-.ComprarYa .textComprarYa{
-    font-size: 7vh;
-    margin-left: 22%;
+.ComprarYa .textComprarYa {
+    font-size: 5vh;
+    width: 40%;
+    margin-left: 29%;
     background-color: black;
+    color: white;
     margin-top: 4%;
-    border-radius: 29px;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+.ComprarYa .textComprarYa:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 /* -- footer -- */
