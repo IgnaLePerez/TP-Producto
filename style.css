@@ -7,71 +7,63 @@
 
 header{
     width: 100%;
-    float: left;
+    
     background-color: black;
     border-bottom: 1px solid rgb(102, 102, 102);
+    display: flex;
 }
 
 header img {
-    width: 4%;
-    margin: 1%;
-    float: left;
+    width: 5%;
     background-color: white;
     border-radius: 50%;
 }
 
 header h2{
-    float: left;
     color: white;
     margin-top: 0.5%;
     font-size: 4vw;
 }
 
-header nav ul{
-    margin-top: 2.5%;
-    margin-left: 2%;
-    width: 30%;
-    float: left;
+header nav{
+    width: 63%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
-    justify-content: space-around;
-}
-
-header nav ul li{
-    list-style: none;
-    float: left;
-    font-size: 1.2vw;
-    color: white;
-}
-
-header nav section {
-    float: right;
-    width: 15%;
-    margin-top: 2%;
     align-items: center;
-    margin-right: 3.7%;
 }
 
-.registrarse p{
+header nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul div li{
+    list-style: none;
+    font-size: 1.2vw;
     color: white;
-    font-size: 1.2vw;
 }
 
-.iniciar-sesion p {
-    color: rgb(0, 0, 0);
-    font-size: 1.2vw;
-    border-radius: 3px;
-    padding: 7%;
-    background-color: rgb(255, 255, 255);
+header nav ul div a{
+    display: flex;
+    align-items: center;
 }
 
-.registrarse{
-    float: left;
-    margin-top: 3%;
+header nav ul div{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
 }
 
-.iniciar-sesion {
-    float: right;
-    width: 53%;
+header nav ul div button {
+    padding: 3%;
+    border-radius: 6px;
+    font-size: 1vw;
+}
+
+.registro{
+    width: 22%;
 }
 
 /* ############## Main ############## */
