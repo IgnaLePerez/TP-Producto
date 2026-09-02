@@ -6,30 +6,37 @@
 /* ############## Header ############## */
 
 header{
-    width: 98%;
+    width: 96%;
     background-color: black;
     border-bottom: 1px solid rgb(102, 102, 102);
     display: flex;
     align-items: center;
-    padding: 1%;
+    justify-content: space-between;
+    padding: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
-header img {
-    width: 4%;
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 10%;
     height: 1%;
-    margin-right: 1%;
     background-color: white;
     border-radius: 50%;
 }
 
-header h2{
+header div h2{
     color: white;
-    font-size: 4vw;
+    font-size: 40px;
+    margin-left: 2%;
 }
 
 header nav{
     width: 68%;
-    padding-left: 5%;
     display: flex;
     align-items: center;
 }
@@ -66,6 +73,8 @@ header nav ul div button {
 .registro{
     width: 22%;
 }
+
+
 
 /* ############## Main ############## */
 
@@ -238,4 +247,22 @@ footer p{
     font-size: 1.2vw;
     margin-top: 10%;
     text-align: center;
+}
+
+@media (width <= 440px){
+
+    .DescripcionGeneral {
+    width: 88%;
+    /* height: 87vh; */
+    background-color: black;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    padding: 6%;
+    }
+
+    .DescripcionGeneral div h1 {
+    color: white;
+    font-size: 21vw;
+    }
 }
