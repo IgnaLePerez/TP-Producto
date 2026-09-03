@@ -252,17 +252,28 @@ footer p{
 @media (width <= 440px){
 
     .DescripcionGeneral {
-    width: 88%;
-    /* height: 87vh; */
+    width: 100%;
     background-color: black;
-    /* display: flex; */
     justify-content: center;
-    /* align-items: center; */
-    padding: 6%;
     }
+
+    .DescripcionGeneral div{
+    width: 86%; 
+    } 
 
     .DescripcionGeneral div h1 {
     color: white;
-    font-size: 21vw;
+    font-size: 115px;
     }
+
+    .DescripcionGeneral div p{
+        color: white; 
+        font-size: 17px;
+        margin-bottom: 1%;
+    }
+
+    .DescripcionGeneral div .Subtitulo{
+        margin-bottom: 1%;
+        font-size: 27px;
+    } 
 }
