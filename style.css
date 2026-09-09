@@ -255,6 +255,7 @@ footer p{
     width: 100%;
     background-color: black;
     justify-content: center;
+    height: auto;
     }
 
     .DescripcionGeneral div{
@@ -276,4 +277,46 @@ footer p{
         margin-bottom: 1%;
         font-size: 27px;
     } 
+
+    .PunteoRapido{
+        width: 100%;
+        height: auto;
+        background-color: rgb(244 238 213);
+        display: flex;
+        flex-direction: column;
+        padding-top: 1%;
+    }
+
+    .PunteoRapido h3{
+        font-size: 13vw;
+        text-align: center;
+        padding: 8%;
+    }
+    .PunteoRapido div div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .PunteoRapido div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .PunteoRapido div div div { 
+        width: 83%;
+        padding: 5%;
+        background-color: #796452;
+        border-radius: 17px;
+        margin-bottom: 8%;
+    }
+    .PunteoRapido div div div .miniSubtitulo {
+        text-align: center;
+        font-size: 42px;
+    }
+    .PunteoRapido div div div p {
+        font-size: 5vw;
+        text-align: center;
+        color: rgb(244 238 213);
+    }
 }
