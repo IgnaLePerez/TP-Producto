@@ -251,13 +251,14 @@ footer p{
 
 @media (width <= 440px){
 
+
     .DescripcionGeneral {
         width: 100%;
         background-color: black;
         justify-content: center;
         height: auto;
         padding-bottom: 5%;
-        padding-top: 5%;
+        padding-top: 10%;
     }
 
     .DescripcionGeneral div {
@@ -266,18 +267,62 @@ footer p{
 
     .DescripcionGeneral div h1 {
         color: white;
-        font-size: 92px;
+        font-size: 54px;
         margin-bottom: 2%;
     }
 
     .DescripcionGeneral div p {
         color: white;
-        font-size: 25px;
+        font-size: 21px;
         margin-bottom: 2%;
     }
-
     .DescripcionGeneral div .Subtitulo {
-        margin-bottom: 4%;
-        font-size: 30px;
+        margin-bottom: 1%;
+        font-size: 25px;
+    }
+
+    footer
+    {
+        height: 20vh;
+    }
+
+    footer p
+    {
+       font-size: large;
+    }
+
+    header div {
+        display: flex;
+        align-items: center;
+        margin-left: 21%;
+    }
+
+    header div img 
+    {
+        width: 10%;
+        height: 1%;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    header .masCosas
+    {
+        display: none;
+    }
+    header .registro{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    header .registro a{
+        display: none;
+    }
+
+    header nav ul div{
+        justify-content: center;
+    }
+
+    header nav ul div button {
+        font-size: 13px;
     }
 }
