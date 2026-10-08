@@ -83,7 +83,7 @@ header nav ul div button {
 .DescripcionGeneral{
     width: 100%;
     height: 87vh;
-    background-color: black;
+    background: linear-gradient(to bottom right, black, grey);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ header nav ul div button {
 .PunteoRapido{
     width: 100%;
     height: 72vh;
-    background-color: rgb(244 238 213);
+    background: linear-gradient(to bottom right, rgb(241, 224, 154), rgb(244 238 213));
     display: flex;
     flex-direction: column;
     padding-top: 1%;
