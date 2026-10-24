@@ -8,6 +8,7 @@
 header{
     width: 96%;
     background-color: black;
+    animation: gradiente 2s ease-in-out;
     border-bottom: 1px solid rgb(102, 102, 102);
     display: flex;
     align-items: center;
@@ -85,6 +86,12 @@ header nav ul div button {
 
 /* -- descripcion general -- */
 
+.puntero{
+    color: white;
+    animation: aparicion 0.6s infinite alternate;
+    animation-timing-function: steps(2, jump-none);
+}
+
 .DescripcionGeneral{
     width: 100%;
     height: 87vh;
@@ -96,7 +103,8 @@ header nav ul div button {
 }
 
 .DescripcionGeneral div{
-    width: 53%; 
+    width: 53%;
+    animation: ancho 1s ease-in-out; 
 } 
 
 .DescripcionGeneral div h1{
@@ -400,5 +408,14 @@ footer p{
     }
     to {
         background: rgb(0, 0, 0);
+    }
+}
+
+@keyframes ancho {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 53%;
     }
 }
